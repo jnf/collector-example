@@ -1,15 +1,33 @@
-# -> Tell folks about the CFP
+# (done) Tell folks about the CFP
 - on the home page? (root route)
 - just has info about what and why (static view?)
   - I'll need a controller & a view
 
-# Have a proposal workflow
+# -> Have a proposal workflow
 - folks can fill out a form
-- persist the form to the db
-  - which means I prolly need a db
-  - which means I prolly need a schema
-  - which means I prolly need a migration
-  - which means I prolly need a model or like an erd or something
+  - I'll need a new route/view (I think I'll use the same controller)
+  - we'll need a link to the form from the landing page
+- (done) persist the form to the db
+  - (done) which means I prolly need a db
+  - (done) which means I prolly need a schema
+  - (done) which means I prolly need a migration
+  - (done) which means I prolly need a model or like an erd or something
+    - Proposal
+      - boring rails stuff
+        - id
+        - created_at
+        - updated_at
+      - awesome custom stuff
+        - subject
+        - abstract
+        - title
+        - length
+        - intended_audience
+        - format
+        - av_needs
+        - name
+        - email
+        - phone
 - thank you page. :)
 
 # Have a proposal review workflow
@@ -17,3 +35,6 @@
   - so that's prolly a list
 - clik through to a detail page
 - notes? <- I don't know if I can get to this today
+
+# How blind?
+
