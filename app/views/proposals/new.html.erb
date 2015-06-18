@@ -1,0 +1,44 @@
+<h1>Here's the form for a proposal. :)</h1>
+
+<%= form_for @proposal do |f| %>
+  <fieldset>
+    <legend>Proposal Basics</legend>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+
+    <%= f.label :abstract %>
+    <%= f.text_area :abstract %>
+  </fieldset>
+
+  <fieldset>
+    <legend>Proposal Details</legend>
+    <%= f.label :length %>
+    <%= f.text_field :length %>
+
+    <%= f.label :subject %>
+    <%= f.text_field :subject %>
+
+    <%= f.label :intended_audience %>
+    <%= f.text_field :intended_audience %>
+
+    <%= f.label :presentation_format %>
+    <%= f.text_field :presentation_format %>
+
+    <%= f.label :av_needs, 'AV Needs' %>
+    <%= f.text_field :av_needs %>
+  </fieldset>
+
+  <fieldset>
+    <legend>Contact Information</legend>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+
+    <%= f.label :phone %>
+    <%= f.phone_field :phone %>
+  </fieldset>
+
+  <%= f.submit 'Submit Proposal' %>
+<% end %>

@@ -1,17 +1,19 @@
-# (done) Tell folks about the CFP
+# √ Tell folks about the CFP
 - on the home page? (root route)
 - just has info about what and why (static view?)
   - I'll need a controller & a view
 
 # -> Have a proposal workflow
-- folks can fill out a form
-  - I'll need a new route/view (I think I'll use the same controller)
-  - we'll need a link to the form from the landing page
-- (done) persist the form to the db
-  - (done) which means I prolly need a db
-  - (done) which means I prolly need a schema
-  - (done) which means I prolly need a migration
-  - (done) which means I prolly need a model or like an erd or something
+- √ folks can fill out a form
+  - √ there should actually be a form :|
+  - √ I'll need a new route/view (I think I'll use the same controller)
+  - √ we'll need a link to the form from the landing page
+- persist the form to the db
+- √ there should be a place for the form data to persist
+  - √ which means I prolly need a db
+  - √ which means I prolly need a schema
+  - √ which means I prolly need a migration
+  - √ which means I prolly need a model or like an erd or something
     - Proposal
       - boring rails stuff
         - id
